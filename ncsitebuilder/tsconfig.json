@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"module": "umd",
+		"target": "es5",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"strictNullChecks": true,
+		"forceConsistentCasingInFileNames": true,
+		"removeComments": true,
+		"preserveConstEnums": false,
+		"sourceMap": false,
+		"allowJs": false,
+		"outDir": "js/",
+		"types": ["jquery"],
+		"typeRoots": ["../../../node_modules/@types"]
+	},
+	"include": [
+		"js/*.ts",
+		"../js/GalleryLib.ts"
+	]
+}
